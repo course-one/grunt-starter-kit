@@ -1,0 +1,17 @@
+html, body {
+  color: #000;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html.no-scroll, body.no-scroll {
+  overflow: hidden;
+}
+html > .application, body > .application {
+  min-height: 100vh;
+  padding: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

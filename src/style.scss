@@ -1,0 +1,16 @@
+// load theme
+@import './theme/default';
+
+html,body {
+    margin: 0;
+    padding: 0;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
+
+    >.application {
+        min-height: 100vh;
+        padding: 30px;
+    }
+}
